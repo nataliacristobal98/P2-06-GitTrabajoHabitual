@@ -39,9 +39,22 @@ public class Practica4 {
 
 
             } else if (estructura == 2) {
-
                 System.out.println("Vamos a encontrar un número elegido al azar entre 1 y 100.");
+                System.out.println("Si quieres rendirte introduce un 0");
+                System.out.println("Introduce un número del 1 al 100");
+                int numAleatorio = (int) (Math.random() * 100 + 1);
+                int numero;
 
+                do {
+                    numero = sc.nextInt();
+                    if (numero > numAleatorio && numero !=0) {
+                        System.out.println("El número es menor que " + numero);
+                    } else if (numero == numAleatorio) {
+                        System.out.println("Felicidades, has encontrado el número. Era " +numAleatorio);
+                    }else if (numero < numAleatorio && numero !=0) {
+                        System.out.println("El número es mayor que " + numero);
+                    }
+                } while (numero != numAleatorio && numero != 0);
 
             } else{
                 System.out.println("Opción incorrecta");
