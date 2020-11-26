@@ -45,22 +45,23 @@ public class Practica4 {
                 int numAleatorio = (int) (Math.random() * 100 + 1);
                 int numero;
 
+                boolean seguir = true;
+
                 do {
                     numero = sc.nextInt();
-                    if (numero > numAleatorio && numero !=0) {
+                    if (numero > numAleatorio && numero != 0) {
                         System.out.println("El número es menor que " + numero);
-                    } else if (numero == numAleatorio) {
-                        System.out.println("Felicidades, has encontrado el número. Era " +numAleatorio);
-                    }else if (numero < numAleatorio && numero !=0) {
+                    } else {
                         System.out.println("El número es mayor que " + numero);
-                    }
-                } while (numero != numAleatorio && numero != 0);
+                }
 
-            } else{
+            } while (numero != numAleatorio) ;
+                System.out.println("Felicidades, has encontrado el número. Era " + numAleatorio);
+                seguir = false;
+
+            } else {
                 System.out.println("Opción incorrecta");
             }
-
-
 
         } while (estructura != 1 && estructura != 2);
 
