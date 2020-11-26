@@ -14,3 +14,5 @@
   
   -He añadido los ejercicios para el programa de la Práctica4 con sus
   estructuras correspondientes.
+  
+  -He creado la rama1 para crear otra posible solución al ejercicio 2.
