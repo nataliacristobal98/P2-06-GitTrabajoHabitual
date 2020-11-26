@@ -14,3 +14,7 @@
   
   -He añadido los ejercicios para el programa de la Práctica4 con sus
   estructuras correspondientes.
+  
+  -He añadido varias tags en cada ejercicio realizado.
+  
+  -Tambíen he creado otra rama con posible solución al ejercicio 2.
