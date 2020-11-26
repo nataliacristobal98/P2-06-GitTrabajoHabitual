@@ -1,4 +1,4 @@
-##### P**ráctica 6 - Git en uso habitual**
+##### **Práctica 6 - Git en uso habitual**
  Voy a trabajar en este repositorio con la práctica de programación 
  en Java para poder realizar los commits desde Intellij.
   
@@ -11,3 +11,6 @@
   
   -He realizado los primeros commits y he vinculado el repositorio
   creado al remoto.
+  
+  -He añadido los ejercicios para el programa de la Práctica4 con sus
+  estructuras correspondientes.
